@@ -1,0 +1,8 @@
+# http://andysh.netlify.com/* http://www.andysh.com/:splat 301!
+
+/b    http://bl.ocks.org/henderson2k/raw/3b4fa7c4465615d4f524986a65baeb20/ 200
+
+# the following redirect points anything other than listed redirects above, back to the index page (therfore preventing 404 not found)
+/* /index.html 200
+
+
